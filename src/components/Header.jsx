@@ -1,13 +1,13 @@
 import ThemeMode from "./buttons/ThemeMode";
 
 const Header = ({ darkMode, toggleDarkMode }) => {
-  const headerLinks = ["Home", "About", "Projects", "Contact"];
+  const headerLinks = ["Home", "About", "Projects", "Skills", "Contact"];
 
   return (
     <header className="w-full bg-neutral-300 fixed dark:bg-neutral-800 px-4 md:px-0">
       <nav className="container mx-auto flex justify-between items-center py-2">
-        <a href="#" className="font-ubunut font-bold text-3xl dark:text-neutral-200">
-          Portfolio
+        <a href="#" className="font-lavishly-yours text-3xl text-blue-500">
+          Qurbonoff
         </a>
         <div className="flex gap-6 items-center">
           <ul className="flex gap-4 dark:text-neutral-200">
