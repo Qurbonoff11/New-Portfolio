@@ -1,0 +1,1 @@
+export { default as PcImg } from "./img/image.png";

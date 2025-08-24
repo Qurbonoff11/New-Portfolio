@@ -1,7 +1,11 @@
 import { LuSquareTerminal } from "react-icons/lu";
 import { TypeAnimation } from "react-type-animation";
+import { PcImg } from "../assets";
 
 const Section = () => {
+
+  const img = PcImg
+
   return (
     <main className="w-full flex justify-center items-center h-screen dark:bg-neutral-900 py-[52px]">
       <section className="container mx-auto h-full flex items-center justify-between">
@@ -81,7 +85,7 @@ const Section = () => {
           </div>
         </div>
         <div>
-          
+          <img className="w-[700px]" src={img} alt="img" />
         </div>
       </section>
     </main>
